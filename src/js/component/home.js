@@ -4,18 +4,18 @@ import React from "react";
 /*import rigoImage from "../../img/rigo-baby.jpg";*/
 
 //create your first component
-export function Home() {
+export function Home(props) {
 	return (
 		<div className="container col-12 d-flex">
-			<div className="icono col-2">
-				<i className="far fa-clock" size={70}></i>
+			<div id="icono" className="icono col-2">
+				<i className="far fa-clock"></i>
 			</div>
-			<div className="quinto col-2"></div>
-			<div className="cuarto col-2"></div>
-			<div className="tercero col-2"></div>
-			<div className="segundo col-2"></div>
-			<div className="primero col-2">
-				<h1>hola</h1>
+			<div id="quinto5" className="quinto col-2"></div>
+			<div id="cuarto4" className="cuarto col-2"></div>
+			<div id="tercero3" className="tercero col-2"></div>
+			<div id="segundo2" className="segundo col-2"></div>
+			<div id="primero1" className="primero col-2">
+				{props.primero}
 			</div>
 		</div>
 	);
