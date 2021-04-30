@@ -8,7 +8,7 @@ export function Home() {
 	return (
 		<div className="container col-12 d-flex">
 			<div className="icono col-2">
-				<i className="far fa-clock"></i>
+				<i className="far fa-clock" size={70}></i>
 			</div>
 			<div className="quinto col-2"></div>
 			<div className="cuarto col-2"></div>
